@@ -1,0 +1,134 @@
+body{
+    text-align: center;
+}
+.xx{
+    background-color: black;
+    color: aliceblue;
+}
+.ric{
+    color: rgb(219, 149, 252);
+    font-weight: bold;
+}
+.titulo{
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caja{
+    width: 30%;
+    margin: 1em auto;
+    text-align: center;
+    border : black 2px dashed;
+}
+.cajita{
+    width: 30%;
+    display: inline-block;
+    border: rgba(193, 33, 214, 0.432) solid 2px;
+    height: 150px;
+    vertical-align: top;
+    font-size: 2rem;
+    align-content: center;
+    font-weight: bold;
+}
+.perfil{
+    height: 450px;
+    
+}
+.container button{
+    background:linear-gradient(250deg,  rgb(234, 0, 255) , rgba(234, 0, 255, 0.705) ,rgba(234, 0, 255, 0.295));
+    border-radius: 20px;
+    text-align: center;
+}
+.opcion{
+    background:linear-gradient(250deg,  rgb(235, 142, 243) , rgba(219, 67, 233, 0.897) ,rgba(241, 219, 243, 0.562));
+    height: 280px;
+    padding: 8em auto;
+    font-size: 9rem;
+    text-align: center;
+    color: black;
+}
+.aliniacion{
+    display: inline-block;
+    
+}
+.marcadores{
+    width: 20%;
+    font-size: 5em;
+    height: 200px;
+    vertical-align: middle;
+    margin-top: -1em;
+};
+
+#perfil2 , #perfil1{
+    height: 250px;
+    width: 15%;
+    margin: 2em auto;
+    vertical-align: top;
+    margin-top: 5em;
+    
+}
+h1{
+    font-size: 6.5rem;
+    vertical-align: top;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    vertical-align: top;
+}
+.conta{
+    text-align: center;
+    margin-top: -1em;
+}
+#reset {
+    background:linear-gradient(250deg,  rgb(234, 0, 255) , rgba(234, 0, 255, 0.705) ,rgba(234, 0, 255, 0.295)) ;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1em;
+    margin-top: -1em;
+    color: aliceblue;
+}
+@media (max-width:600px) {
+    .titulo{
+        font-size: 1.5em;
+    }
+    .caja{
+        width: 80%;
+        margin: 0.5em auto;
+        text-align: center;
+        border : black 2px dashed;
+    }
+    .cajita{
+        width: 25%;
+        display: inline-block;
+        border: rgba(193, 33, 214, 0.432) solid 2px;
+        height: 120px;
+        vertical-align: top;
+        font-size: 2rem;
+        align-content: center;
+        font-weight: bold;
+    }
+    .perfil{
+        height: 250px;
+        
+    }
+    .aliniacion{
+        display: inline;
+        
+    }
+    
+    .opcion{
+        background:linear-gradient(250deg,  rgb(235, 142, 243) , rgba(219, 67, 233, 0.897) ,rgba(241, 219, 243, 0.562));
+        height: 120px;
+        width: 35%;
+        padding: 10em auto;
+        font-size: 5rem;
+        text-align: center;
+        color: black;
+    }
+    
+    
+    
+    
+}
