@@ -6,7 +6,7 @@
     margin: 120px auto;
 }
 .ficha {
-    background: linear-gradient(250deg,  rgb(234, 0, 255) , rgba(234, 0, 255, 0.705) ,rgba(234, 0, 255, 0.295));
+    background: var(--fichas);
     width: 100px;
     height: 100px;
     display: flex;
@@ -16,4 +16,9 @@
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 3px 3px rgba(49, 6, 47, 0.25);
+}
+/*se crea una variable
+para cambiar donde se hay aplicado*/
+:root{
+    --fichas:linear-gradient(250deg,  rgb(234, 0, 255) , rgba(234, 0, 255, 0.705) ,rgba(234, 0, 255, 0.295));
 }

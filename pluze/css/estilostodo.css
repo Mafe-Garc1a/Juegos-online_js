@@ -2,3 +2,17 @@ body{
     background-color: black;
     color: aliceblue;
 }
+button{
+    background:linear-gradient(250deg,  rgb(234, 0, 255) , rgba(234, 0, 255, 0.705) ,rgba(234, 0, 255, 0.295)) ;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1em;
+    margin-top: -1em;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background: blanchedalmond;
+    color: rgba(234, 0, 255, 0.705) ;
+}
